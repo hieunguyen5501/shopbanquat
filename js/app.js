@@ -1,4 +1,9 @@
 var app = angular.module('app',['ngRoute']);
+
+app.run(function($rootScope) {
+    $rootScope.page = 'home';
+});
+
 app.config(function($routeProvider) {
 	$routeProvider
 	.when('/',{
@@ -7,16 +12,34 @@ app.config(function($routeProvider) {
 	}).when('/product/:id',{
 		templateUrl: "./page/product-detail.html",
 		controller: "detailCtrl"
+	}).when('/category',{
+		templateUrl: "./page/category.html",
+		controller: "detailCtrl"
+	}).when('/about',{
+		templateUrl: "./page/about.html",
+		controller: "detailCtrl"
+	}).when('/contact',{
+		templateUrl: "./page/contact.html",
+		controller: "detailCtrl"
 	});
 });
-app.controller('homeCtrl', function($scope, $routeParams){
-	// $scope.id = $routeParams.id;
 
-	console.log(111);
+app.controller('homeCtrl', function($scope, $routeParams, $rootScope){
+	$rootScope.page = 'home';
 });
 
-app.controller('detailCtrl', function($scope, $routeParams){
-	$scope.id = $routeParams.id;
+app.controller('detailCtrl', function($scope, $routeParams, $rootScope){
+	$rootScope.page = 'detail';
+});
 
-	console.log($routeParams.id);
+app.controller('aboutCtrl', function($scope, $routeParams, $rootScope){
+	$rootScope.page = 'about';
+});
+
+app.controller('contactCtrl', function($scope, $routeParams, $rootScope){
+	$rootScope.page = 'contact';
+});
+
+app.controller('categoryCtrl', function($scope, $routeParams, $rootScope){
+	$rootScope.page = 'category';
 });

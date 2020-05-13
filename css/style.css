@@ -842,6 +842,7 @@ h3.title-comment {
 	position: fixed;
 	width: 250px;
 	z-index: 9999;
+	transition: left .5s;
 }
 .menu-icon {
 	float: right;
@@ -1097,4 +1098,33 @@ nav.nav-bar ul li:nth-of-type(3n+2) {
     padding: 5px;
     color: #FC6803;
     font-weight: bold;
+}
+
+#slide-banner-home {
+	margin: 20px 0;
+}
+
+.menu-item.active {
+	color: #FFFFFF;
+    background: #8d8d8d;
+}
+
+.menu-responsive.show-menu-responsive {
+	left: 0px;
+	transition: left .5s;
+}
+
+.nav .open > a {
+	background-color: #8d8d8d !important ;
+}
+
+.price span {
+	text-decoration:line-through;
+}
+
+.price-final {
+	font-size: 30px;
+    margin-bottom: 15px;
+    color: #FF0000;
+    font-family: 'Swiss CondensedBold';
 }
