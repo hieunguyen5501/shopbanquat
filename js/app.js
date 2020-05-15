@@ -12,7 +12,7 @@ app.config(function($routeProvider) {
 	}).when('/product/:id',{
 		templateUrl: "./page/product-detail.html",
 		controller: "detailCtrl"
-	}).when('/category',{
+	}).when('/category/:id',{
 		templateUrl: "./page/category.html",
 		controller: "detailCtrl"
 	}).when('/about',{
@@ -20,6 +20,9 @@ app.config(function($routeProvider) {
 		controller: "detailCtrl"
 	}).when('/contact',{
 		templateUrl: "./page/contact.html",
+		controller: "detailCtrl"
+	}).when('/cart',{
+		templateUrl: "./page/cart.html",
 		controller: "detailCtrl"
 	});
 });

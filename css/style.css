@@ -26,12 +26,12 @@ a:hover {
 	background-color: #f4f4f4;
 }
 .top-bar span.hotline {
-	color: #58D3F7;
+	color: #99ff99;
 }
 .top-bar .contacts i {
 	font-size: 20px;
 	margin-right: 5px;
-	color: #58D3F7;
+	color: #99ff99;
 }
 .top-bar .contacts {
 	margin: 7px 0;
@@ -50,7 +50,7 @@ a:hover {
 ======================================
 */
 nav.nav {
-	background: #58D3F7;
+	background: #99ff99;
 }
 nav.nav .menu {
 	margin: 0;
@@ -124,7 +124,7 @@ nav.nav .menu ul li a {
 }
 nav.nav .menu ul li a:hover,
 .menu ul li:hover a {
-	background: #58D3F7;
+	background: #99ff99;
 	color: #fff;
 }
 nav.nav .menu li:hover>ul {
@@ -209,7 +209,7 @@ nav.nav .menu li>ul ul:hover {
 	border-radius: 0;
 }
 .search-form .form-control {
-	border: 1px solid #58D3F7;
+	border: 1px solid #99ff99;
 	font: normal 12px Arial, Helvetica, sans-serif;
 	color: #555;
 	-webkit-box-shadow: none;
@@ -223,8 +223,8 @@ nav.nav .menu li>ul ul:hover {
 }
 .search-form .btn-success {
 	color: #fff;
-	background-color: #58D3F7;
-	border-color: #58D3F7;
+	background-color: #99ff99;
+	border-color: #99ff99;
 }
 /*
 ======================================
@@ -246,7 +246,7 @@ footer {
 	padding: 20px 0 10px;
 }
 .footer h3.widget-title::first-letter {
-	color: #58D3F7;
+	color: #99ff99;
 }
 ul.time-table {
 	list-style: none;
@@ -263,7 +263,7 @@ ul.time-table li span {
 }
 ul.time-table li:last-child {
 	border: 0;
-	color: #58D3F7;
+	color: #99ff99;
 }
 ul.contacts-list {
 	list-style: none;
@@ -278,7 +278,7 @@ ul.contacts-list li i {
 	margin-right: 5px;
 }
 ul.contacts-list li a {
-	color: #58D3F7;
+	color: #99ff99;
 }
 ul.post-list {
 	list-style-type: square;
@@ -300,7 +300,7 @@ ul.post-list li a {
 	padding: 20px 0;
 }
 .developed a {
-	color: #58D3F7;
+	color: #99ff99;
 }
 .back-to-top {
 	position: fixed;
@@ -310,14 +310,14 @@ ul.post-list li a {
 	cursor: pointer;
 }
 .back-to-top i {
-	background: #58D3F7;
+	background: #99ff99;
 	padding: 5px 10px;
 	color: #fff;
 	font-size: 30px;
 	font-weight: bold;
 }
 .call-to-action {
-	background-color: #58D3F7;
+	background-color: #99ff99;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	margin: 10px 0 0;
@@ -407,12 +407,12 @@ h3.sidebar-title {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	color: #58D3F7;
+	color: #99ff99;
 	padding: 20px 0;
 }
 .breadcrumbs a {
 	position: relative;
-	color: #58D3F7;
+	color: #99ff99;
 	font-size: 12px;
 	font-weight: bold;
 	line-height: 1;
@@ -554,7 +554,7 @@ h3.sidebar-title {
 	font-size: 13px;
 	margin: 0 0 10px 0;
 	padding: 10px;
-	background: #58D3F7;
+	background: #99ff99;
 	color: #fff;
 }
 .contact-info {
@@ -595,7 +595,7 @@ h3.sidebar-title {
 	margin: 0;
 }
 .aside-about-seller {
-	background: #58D3F7;
+	background: #99ff99;
 	color: #fff;
 }
 .aside-about-seller {
@@ -637,7 +637,7 @@ h3.sidebar-title {
 }
 .contact-form .input-group .input-group-addon {
 	border-radius: 0px;
-	background-color: #58D3F7;
+	background-color: #99ff99;
 	border: none;
 	position: relative;
 }
@@ -699,7 +699,7 @@ h3.sidebar-title {
  * Title
  */
 .default span {
-	background: #58D3F7;
+	background: #99ff99;
 }
 .green span {
 	background: #00A53C;
@@ -711,10 +711,10 @@ h3.sidebar-title {
 	background: #F6D902;
 }
 .orange span {
-	background: #58D3F7;
+	background: #99ff99;
 }
 .title.default span:before {
-	border-left: 15px solid #58D3F7;
+	border-left: 15px solid #99ff99;
 }
 .title.green span:before {
 	border-left: 15px solid  #00A53C;
@@ -726,10 +726,10 @@ h3.sidebar-title {
 	border-left: 15px solid #F6D902;
 }
 .title.orange span:before {
-	border-left: 15px solid #58D3F7;
+	border-left: 15px solid #99ff99;
 }
 .title.default:before {
-	border-top: 1px solid #58D3F7;
+	border-top: 1px solid #99ff99;
 }
 .title.green:before {
 	border-top: 1px solid #00A53C;
@@ -741,7 +741,7 @@ h3.sidebar-title {
 	border-top: 1px solid #F6D902;
 }
 .title.orange:before {
-	border-top: 1px solid #58D3F7;
+	border-top: 1px solid #99ff99;
 }
 .title:before {
 	content: "";
@@ -770,7 +770,7 @@ h3.sidebar-title {
 	font-size: 13px;
 	text-transform: uppercase;
 	position: relative;
-	margin: 0 0 5px 0;
+	margin: 10px 0 5px 0;
 	font-weight: bold;
 }
 .title a.title-category {
@@ -851,7 +851,7 @@ h3.title-comment {
 .menu-close {
 	cursor: pointer;
 	padding: 10px;
-	background: #58D3F7;
+	background: #99ff99;
 	text-align: left;
 	color: #fff;
 	font-size: 13px;
@@ -873,7 +873,7 @@ h3.title-comment {
 	float: left;
 }
 .menu-open {
-	color: #58D3F7;
+	color: #99ff99;
 	font-family: Arial;
 	font-size: 14px;
 	padding: 5px 15px 5px 15px;
@@ -967,7 +967,7 @@ nav.menu-cat ul li a {
 	padding: 11.6px 10px 14px;
 	display: block;
 	text-decoration: none;
-	background: #58D3F7;
+	background: #99ff99;
 	color: #1c1c1c;
 	text-transform: uppercase;
 	border-bottom: 1px solid #fff;
@@ -984,7 +984,7 @@ nav.menu-cat ul li a:before {
 	margin-right: 5px;
 }
 nav.menu-cat ul li a:hover {
-	background: #58D3F7;
+	background: #99ff99;
 	color: #fff;
 }
 nav.menu-cat ul li ul li a {
@@ -1065,14 +1065,14 @@ nav.nav-bar ul li:nth-of-type(3n+2) {
   box-shadow: none;
 }
 .modal-header {
-  border-bottom: 1px solid #58D3F7;
-  background: #58D3F7;
+  border-bottom: 1px solid #99ff99;
+  background: #99ff99;
   text-align: center;
   color: #fff;
 }
 .modal-footer {
-  border-top: 1px solid #58D3F7;
-  background: #58D3F7;
+  border-top: 1px solid #99ff99;
+  background: #99ff99;
   color: #fff;
 }
 .modal-body {
@@ -1092,7 +1092,7 @@ nav.nav-bar ul li:nth-of-type(3n+2) {
 .support-icon-right h3 { text-transform: uppercase; font-weight: bold; font-size: 13px; font-family: Arial; color: #fff; margin: 0; background-color: #2B82B7; cursor: pointer; }
 .support-icon-right i { background-color: #D9534F; padding: 15px 15px 12px 15px; }
 .online-support { display: none; }
-.icon-bar a {display: block;font-size: 27px;color: #1c1c1c;padding: 10px;margin: 5px 0;border-radius: 4px 0 0 4px;background: #58D3F7;width: 50px;height: 50px;text-align: center;}
+.icon-bar a {display: block;font-size: 27px;color: #1c1c1c;padding: 10px;margin: 5px 0;border-radius: 4px 0 0 4px;background: #99ff99;width: 50px;height: 50px;text-align: center;}
 .icon-bar { position: fixed; top: 150px; right: 0; z-index: 999; }
 .intro-text {
     padding: 5px;
@@ -1127,4 +1127,11 @@ nav.nav-bar ul li:nth-of-type(3n+2) {
     margin-bottom: 15px;
     color: #FF0000;
     font-family: 'Swiss CondensedBold';
+}
+
+
+.nav .container{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 }
