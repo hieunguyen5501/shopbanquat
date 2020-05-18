@@ -6,6 +6,16 @@
 	font-style: normal;
 }
 
+@font-face {
+   font-family: Nunito;
+   src: url('https://fonts.googleapis.com/css?family=Nunito');
+}
+
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+
 body {
 	color: #000;
 	font-family: 'Arial';
@@ -393,7 +403,7 @@ ul.post-list li a {
 	padding: 0;
 	color: #fff;
 	font-size: 25px;
-	font-family: 'Swiss CondensedBold';
+	font-family: 'Nunito';
 }
 
 /*
@@ -491,12 +501,12 @@ ul.post-list li a {
 */
 .item-product span.post-title,
 .item-product h2.post-title {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: bold;
 	color: #000;
 	display: block;
-	margin: 10px;
-	min-height: 55px;
+	margin: 20px 10px;
+	min-height: 45px;
 	line-height: 1.5;
 }
 
@@ -555,8 +565,15 @@ ul.post-list li a {
 }
 
 .list-item-product {
-	background: #f5f5f5;
-	margin-bottom: 10px;
+	border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+	margin-bottom: 20px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.list-item-product:hover{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.15);
 }
 
 .extra h6 {
@@ -570,7 +587,7 @@ ul.post-list li a {
 	font-size: 30px;
 	margin-bottom: 15px;
 	color: #FF0000;
-	font-family: 'Swiss CondensedBold';
+	font-family: 'Nunito';
 }
 
 .type-product-position {
@@ -788,7 +805,7 @@ ul.post-list li a {
 /**
  * Title
  */
-.default span {
+/* .default span {
 	background: #99ff99;
 }
 
@@ -806,13 +823,13 @@ ul.post-list li a {
 
 .orange span {
 	background: #99ff99;
-}
+} */
 
-.title.default span:before {
+/* .title.default span:before {
 	border-left: 15px solid #99ff99;
 }
-
-.title.green span:before {
+ */
+/* .title.green span:before {
 	border-left: 15px solid #00A53C;
 }
 
@@ -846,17 +863,17 @@ ul.post-list li a {
 
 .title.orange:before {
 	border-top: 1px solid #99ff99;
-}
+} */
 
-.title:before {
+/* .title:before {
 	content: "";
 	position: absolute;
 	top: 16px;
 	right: 0;
 	width: 100%;
-}
+} */
 
-.title span:before {
+/* .title span:before {
 	width: 0px;
 	height: 0px;
 	border-bottom: 17.999px solid transparent;
@@ -865,20 +882,22 @@ ul.post-list li a {
 	position: absolute;
 	right: -15px;
 	top: 0px;
-}
+} */
 
 .title span {
 	padding: 9px 9px 7px;
 	display: inline-block;
-	color: #1c1c1c;
+	color: #333;
 	position: relative;
 }
 
-.title {
-	font-size: 13px;
+.title {	
+	font-family: Nunito;
+	text-align: center;
+	font-size: 25px;
 	text-transform: uppercase;
 	position: relative;
-	margin: 10px 0 5px 0;
+	margin: 15px 0 5px 0;
 	font-weight: bold;
 }
 
@@ -937,7 +956,7 @@ h1.title-post {
 	width: 100%;
 	line-height: 1.2;
 	margin: 5px 0 10px 0;
-	font-family: 'Swiss CondensedBold';
+	font-family: 'Nunito';
 	color: #555;
 }
 
@@ -1338,7 +1357,7 @@ nav.nav-bar ul li:nth-of-type(3n+2) {
 	font-size: 30px;
 	margin-bottom: 15px;
 	color: #FF0000;
-	font-family: 'Swiss CondensedBold';
+	font-family: 'Nunito';
 }
 
 

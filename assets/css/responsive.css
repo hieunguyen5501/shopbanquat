@@ -1,0 +1,50 @@
+@media (min-width: 992px) {
+	.gallery{
+		height: 500px;
+		overflow-y: scroll; 
+	}
+
+	.avatar-pro img {
+		height: 500px;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.gallery span {
+		background-color: #f1f1f1;
+		width: 100%;
+	}
+
+	.gallery span img {
+		width: 100%;
+		margin-bottom: 10px;
+		object-fit: cover;
+	}
+}
+
+@media (max-width: 991px) {
+	.gallery{
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.avatar-pro img {
+		width: 100%;
+	}
+
+	.gallery span {
+		background-color: #f1f1f1;
+		width: 170px;
+		float: left;
+		margin-right: 10px;
+	}
+
+	.gallery span img {
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.extra {
+		margin-top: 20px;
+	}
+}

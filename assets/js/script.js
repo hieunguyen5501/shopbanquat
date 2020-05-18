@@ -12,5 +12,5 @@ $(document).ready(function () {
 
 	$('.menu-close').on('click', function () {
 		$('.menu-responsive').removeClass('show-menu-responsive');
-	})
+	});
 });
