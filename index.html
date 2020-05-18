@@ -1,63 +1,65 @@
 <!DOCTYPE HTML>
 <html ng-app="app">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Quạt trần | Quạt trần đèn trang trí | Quạt Cắt Gió</title>
-      <link rel='stylesheet' id='bootstrap.min-css'  href='./bootstrap/css/bootstrap.min.css' type='text/css' media='all' />
-      <link rel='stylesheet' id='ticcom-style-css'  href='./css/style.css' type='text/css' media='all' />
-      <link rel='stylesheet' id='font-awesome.min-css'  href='./css/font-awesome.min.css' type='text/css' media='all' />
-      <link rel="icon" href="banner/logo.jpg" sizes="32x32" />
-      <!-- <link rel="icon" href="images/cropped-favicon-1-192x192.png" sizes="192x192" />
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>FanNoFan</title>
+   <link rel='stylesheet' id='bootstrap.min-css' href='./bootstrap/css/bootstrap.min.css' type='text/css' media='all' />
+   <link rel='stylesheet' id='ticcom-style-css' href='./css/style.css' type='text/css' media='all' />
+   <link rel='stylesheet' id='font-awesome.min-css' href='./css/font-awesome.min.css' type='text/css' media='all' />
+   <link rel="icon" href="banner/logo.jpg" sizes="32x32" />
+   <!-- <link rel="icon" href="images/cropped-favicon-1-192x192.png" sizes="192x192" />
       <link rel="apple-touch-icon-precomposed" href="images/cropped-favicon-1-180x180.png" />
       <meta name="msapplication-TileImage" content="images/cropped-favicon-1-270x270.png" /> -->
-      <style>
-         .search-header{
-            float: right;
-         }
-      </style>
-   </head>
-   <body data-rsssl=1 class="home blog">
-	<div ng-include="'page/header.html'"></div>
+   <style>
+      .search-header {
+         float: right;
+      }
+   </style>
+</head>
 
-	<div ng-view></div>
+<body data-rsssl=1 class="home blog">
+   <div ng-include="'page/header.html'"></div>
+
+   <div ng-view></div>
 
    <div class="modal fade" id="login" role="dialog">
       <div class="modal-dialog modal-lg">
          <div class="modal-content">
-         <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Login</h4>
-         </div>
-         <div class="modal-body">
-            <form class="form-horizontal" action="/action_page.php">
-               <div class="form-group">
-                  <label class="control-label col-sm-2" for="email">Email:</label>
-                  <div class="col-sm-10">
-                     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-                  </div>
-               </div>
-               <div class="form-group">
-                  <label class="control-label col-sm-2" for="pwd">Password:</label>
-                  <div class="col-sm-10">          
-                     <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
-                  </div>
-               </div>
-               <div class="form-group">
-                  <div class="col-sm-offset-2 col-sm-10">
-                     <div class="checkbox">
-                        <label><input type="checkbox" name="remember"> Remember me</label>
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4 class="modal-title">Login</h4>
+            </div>
+            <div class="modal-body">
+               <form class="form-horizontal" action="/action_page.php">
+                  <div class="form-group">
+                     <label class="control-label col-sm-2" for="email">Email:</label>
+                     <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
                      </div>
                   </div>
-               </div>
-               <div class="form-group">
-                  <div class="col-sm-offset-2 col-sm-10">
-                     <button type="submit" class="btn btn-default">Submit</button>
+                  <div class="form-group">
+                     <label class="control-label col-sm-2" for="pwd">Password:</label>
+                     <div class="col-sm-10">
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                     </div>
                   </div>
-               </div>
-            </form>
-         </div>
+                  <div class="form-group">
+                     <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                           <label><input type="checkbox" name="remember"> Remember me</label>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
             <div class="modal-footer">
                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -68,62 +70,63 @@
    <div class="modal fade" id="sign-up" role="dialog">
       <div class="modal-dialog modal-lg">
          <div class="modal-content">
-         <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Sign up</h4>
-         </div>
-         <div class="modal-body">
-            <form class="form-horizontal" action="/action_page.php">
+            <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4 class="modal-title">Sign up</h4>
+            </div>
+            <div class="modal-body">
+               <form class="form-horizontal" action="/action_page.php">
 
-               <div class="form-group">
-                  <label class="control-label col-sm-2" for="email">Username:</label>
-                  <div class="col-sm-10">
-                     <input type="text" class="form-control" id="email" placeholder="Enter username" name="username">
-                  </div>
-               </div>
-
-               <div class="form-group">
-                  <label class="control-label col-sm-2" for="email">Email:</label>
-                  <div class="col-sm-10">
-                     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-                  </div>
-               </div>
-
-               <div class="form-group">
-                  <label class="control-label col-sm-2" for="email">Phone:</label>
-                  <div class="col-sm-10">
-                     <input type="phone" class="form-control" id="phone" placeholder="Enter phone" name="phone">
-                  </div>
-               </div>
-
-               <div class="form-group">
-                  <label class="control-label col-sm-2" for="pwd">Password:</label>
-                  <div class="col-sm-10">          
-                     <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
-                  </div>
-               </div>
-
-               <div class="form-group">
-                  <label class="control-label col-sm-2" for="pwd">Password Confirm:</label>
-                  <div class="col-sm-10">          
-                     <input type="password" class="form-control" id="pwd" placeholder="Enter password confirm" name="pwd-confirm">
-                  </div>
-               </div>
-
-               <div class="form-group">
-                  <div class="col-sm-offset-2 col-sm-10">
-                     <div class="checkbox">
-                        <label><input type="checkbox" name="remember"> Remember me</label>
+                  <div class="form-group">
+                     <label class="control-label col-sm-2" for="email">Username:</label>
+                     <div class="col-sm-10">
+                        <input type="text" class="form-control" id="email" placeholder="Enter username" name="username">
                      </div>
                   </div>
-               </div>
-               <div class="form-group">
-                  <div class="col-sm-offset-2 col-sm-10">
-                     <button type="submit" class="btn btn-default">Submit</button>
+
+                  <div class="form-group">
+                     <label class="control-label col-sm-2" for="email">Email:</label>
+                     <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                     </div>
                   </div>
-               </div>
-            </form>
-         </div>
+
+                  <div class="form-group">
+                     <label class="control-label col-sm-2" for="email">Phone:</label>
+                     <div class="col-sm-10">
+                        <input type="phone" class="form-control" id="phone" placeholder="Enter phone" name="phone">
+                     </div>
+                  </div>
+
+                  <div class="form-group">
+                     <label class="control-label col-sm-2" for="pwd">Password:</label>
+                     <div class="col-sm-10">
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                     </div>
+                  </div>
+
+                  <div class="form-group">
+                     <label class="control-label col-sm-2" for="pwd">Password Confirm:</label>
+                     <div class="col-sm-10">
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password confirm"
+                           name="pwd-confirm">
+                     </div>
+                  </div>
+
+                  <div class="form-group">
+                     <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                           <label><input type="checkbox" name="remember"> Remember me</label>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="form-group">
+                     <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
             <div class="modal-footer">
                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -131,8 +134,8 @@
       </div>
    </div>
 
-	
-	<div ng-include="'page/footer.html'"></div>
+
+   <div ng-include="'page/footer.html'"></div>
 
 </body>
 <script src="./js/angular.min.js"></script>
@@ -141,4 +144,5 @@
 <script src="./js/app.js"></script>
 <script type='text/javascript' src='./bootstrap/js/bootstrap.min.js'></script>
 <script src="js/script.js"></script>
+
 </html>
