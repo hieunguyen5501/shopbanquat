@@ -22,14 +22,14 @@
         <div class="col-md-12">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-9">
-              <div class="col-xs-12 col-sm-12 col-md-9 col-md-push-3 avatar-pro">
+              <div class="col-xs-12 col-sm-9 col-md-9 col-sm-push-3 col-md-push-3 avatar-pro">
                 <img ng-src="{{ product.image }}"
                 class="img-responsive center-block"
                 alt="{{ product.name }}"
               />
               </div>
           
-              <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-9 gallery">
+              <div class="col-xs-12 col-sm-3 col-md-3 col-sm-pull-9 col-md-pull-9 gallery">
                 <span ng-repeat="image in product.gallery_image track by $index">
                   <img onclick="changeSrc(this)" class="" src="{{ image }}" alt="">
                 </span>
