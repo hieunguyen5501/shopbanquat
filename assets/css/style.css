@@ -28,6 +28,10 @@ a:hover {
 	text-decoration: none;
 }
 
+a:focus {
+	text-decoration: none;
+}
+
 /*
 ======================================
 [ HEADER ]
@@ -549,6 +553,13 @@ ul.post-list li a {
 	color: #7f858b;
 }
 
+.gallery span {
+	cursor: pointer !important;
+}
+
+.gallery span img.active{
+	border: 1px solid #333;
+}
 .item-product strong {
 	font-size: 13px;
 	color: #666;

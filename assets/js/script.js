@@ -1,4 +1,5 @@
 $(document).ready(function () {
+	
 	$('.menu-item').on('click', function () {
 		$('.menu-item').removeClass('active');
 		$(this).addClass('active');
@@ -6,7 +7,6 @@ $(document).ready(function () {
 	});
 
 	$('.menu-open').on('click', function () {
-		console.log(1);
 		$('.menu-responsive').addClass('show-menu-responsive');
 	});
 
@@ -14,3 +14,9 @@ $(document).ready(function () {
 		$('.menu-responsive').removeClass('show-menu-responsive');
 	});
 });
+
+function changeSrc(e) {
+	$('.gallery span img').removeClass('active');
+	e.classList.add('active');
+	$('.avatar-pro img').attr('src', e.src);
+}
