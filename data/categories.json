@@ -1,0 +1,17 @@
+[
+	{
+		"id": 1,
+		"name": "Ceiling Fans",
+		"descript": "Ceiling Fans"
+	},
+	{
+		"id": 2,
+		"name": "Exhaust",
+		"descript": "Exhaust"
+	},
+	{
+		"id": 3,
+		"name": "Table Fans",
+		"descript": "Table Fans"
+	}
+]

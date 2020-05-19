@@ -7,6 +7,7 @@ $(document).ready(function () {
 	});
 
 	$('.menu-open').on('click', function () {
+		console.log(1);
 		$('.menu-responsive').addClass('show-menu-responsive');
 	});
 

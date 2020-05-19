@@ -26,19 +26,22 @@
 	.gallery{
 		margin-top: 20px;
 		width: 100%;
+		display: grid;
+		grid-gap: 10px;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 
 	.avatar-pro img {
 		width: 100%;
 	}
 
-	.gallery span {
+	/* .gallery span {
 		background-color: #f1f1f1;
 		width: 170px;
 		float: left;
 		margin-right: 10px;
 		margin-bottom: 10px;
-	}
+	} */
 
 	.gallery span img {
 		width: 100%;
@@ -48,4 +51,270 @@
 	.extra {
 		margin-top: 20px;
 	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.usa{
+		margin-right: 0;
+	} 
+
+	.shipping img{
+		width: 100%;
+	}
+
+	.searchform input{
+		width: 160px;
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.shop-menu ul li a{
+		padding-left: 0;
+	}
+	.navbar-collapse.collapse{
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.header_top .col-sm-6:first-child{
+		display: inline-block;
+		float: left;
+	}
+
+	.header_top .col-sm-6:last-child{
+		display: inline-block;
+		float: right;
+	}
+
+	.header-middle .col-sm-4 {
+		display: inline-block;
+		overflow: inherit;
+		width: 100%;
+	}
+
+	.social-icons ul li a i {
+		padding: 8px 10px;
+	}
+
+	.shop-menu.pull-right{
+		float: none !important;
+	}
+
+	.shop-menu .nav.navbar-nav{
+		/* margin-left: -30px; */
+	}
+
+	.header-bottom .col-sm-9{
+		display: inline-block;
+		width: 100%;
+	}
+
+	.mainmenu{
+		width: 100%;
+	}
+
+	.mainmenu ul li{
+		background: rgba(0, 0, 0, 0.5);
+		padding-top: 15px;
+		padding-bottom: 0;
+	}
+
+	.mainmenu ul li:last-child{
+		padding-bottom: 15px;
+	}
+
+	.mainmenu ul li  a{
+		color: #fff;
+	}
+
+	.navbar-collapse.in{
+		overflow: inherit;
+	}
+
+	.mainmenu ul li a.active{
+		padding-left: 15px;
+	}
+
+	.dropdown .fa-angle-down{
+		display: none;
+	}
+
+	ul.sub-menu{
+		position: relative;
+		width: auto;
+		display: block;
+		background: transparent;
+		box-shadow: none;
+		top: 0;
+	}
+
+	.sub-menu li{
+		background: transparent;
+	}
+
+	.mainmenu .navbar-nav li ul.sub-menu li{
+		background: transparent;
+		padding-bottom:0;
+	}
+
+	.nav.navbar-nav > li:hover > ul.sub-menu{
+		-webkit-animation: none;
+		-moz-animation: none;
+		-ms-animation: none;
+		-o-animation: none;
+		animation: none;
+		box-shadow: none;
+	}
+
+	.header-bottom{
+		position: relative;
+	}
+
+	.header-bottom .col-sm-3 {
+		display: inline-block;
+		position: absolute;
+		left: 15px;
+		top: 38px;
+	}
+
+	#slider-carousel .item{
+		padding-left: 0;
+	}
+
+	.shipping{
+		margin-bottom: 25px;
+	}
+
+	.pricing{
+		width: 100px;
+	}
+}
+
+
+/* XS Portrait */
+@media (max-width: 480px) {
+
+.contactinfo{
+	text-align: center;
+}
+
+.contactinfo ul li a {
+	padding-right: 15px;
+	padding-left: 0;
+}
+
+.social-icons.pull-right{
+	float: none !important;
+	text-align: center;
+}
+
+.btn-group.pull-right, 
+.footer-bottom .pull-left, 
+.footer-bottom .pull-right, 
+.mainmenu.pull-left,
+.media.commnets .pull-left,
+.media-list .pull-left{
+	float: none !important;
+}
+
+.header_top .col-sm-6:first-child{
+	display: block;
+	float: none;
+}
+
+.header_top .col-sm-6:last-child{
+	display: block;
+	float: none;
+}
+
+.contactinfo .nav.nav-pills, .social-icons .nav.navbar-nav{
+	display: inline-block;
+}
+
+.logo{
+	text-align: center;
+	width: 100%;
+}
+
+.shop-menu ul li {
+	padding: 0;
+}
+
+.header-middle .col-sm-4{
+	text-align: center;
+	overflow: inherit;
+}
+
+.shop-menu .nav.navbar-nav {
+	margin-left: 0;
+}
+
+.btn-group>.btn-group:last-child>.btn:first-child{
+	margin-right: 0;
+}
+
+.header-bottom .col-sm-9{
+	display: inline-block;
+	width: 100%;
+}
+
+.mainmenu{
+	width: 100%;
+}
+
+.mainmenu ul li{
+	background: rgba(0, 0, 0, 0.5);
+    padding-top: 15px;
+	padding-bottom: 0;
+}
+
+.mainmenu ul li:last-child{
+	padding-bottom: 15px;
+}
+
+.mainmenu ul li a {
+	color: #FFF;
+	padding-bottom: 0;
+}
+
+.navbar-collapse.in{
+	overflow: inherit;
+}
+
+.mainmenu ul li a.active{
+	padding-left: 15px;
+}
+
+.dropdown .fa-angle-down{
+	display: none;
+}
+
+ul.sub-menu{
+  position: relative;
+  width: auto;
+  display: block;
+  background: transparent;
+  box-shadow: none;
+  top: 0;
+}
+
+
+.mainmenu .navbar-nav li ul.sub-menu li{
+	background: transparent;
+	padding-bottom:0;
+}
+
+.nav.navbar-nav > li:hover > ul.sub-menu{
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  -o-animation: none;
+  animation: none;
+  box-shadow: none;
+}
+
 }
