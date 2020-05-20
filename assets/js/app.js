@@ -2,6 +2,7 @@ var app = angular.module('app', ['ngRoute']);
 
 app.run(function ($rootScope,$location,$http) {
 	$rootScope.page = 'home';
+	$rootScope.user_login = false;
 	$rootScope.categories = [];
 
 	$http.get('./data/categories.json').then(function(response){
@@ -19,19 +20,19 @@ app.config(function ($routeProvider) {
 			controller: "detailCtrl"
 		}).when('/category/:id', {
 			templateUrl: "./page/category.html",
-			controller: "detailCtrl"
+			controller: "categoryCtrl"
 		}).when('/about', {
 			templateUrl: "./page/about.html",
-			controller: "detailCtrl"
+			controller: "aboutCtrl"
 		}).when('/contact', {
 			templateUrl: "./page/contact.html",
-			controller: "detailCtrl"
+			controller: "contactCtrl"
 		}).when('/cart', {
 			templateUrl: "./page/cart.html",
-			controller: "detailCtrl"
+			controller: "cartCtrl"
 		}).when('/checkout', {
 			templateUrl: "./page/checkout.html",
-			controller: "detailCtrl"
+			controller: "checkoutCtrl"
 		});
 });
 
@@ -62,6 +63,7 @@ app.controller('detailCtrl', function ($scope, $routeParams, $rootScope, $locati
 			}
 		});
 		$scope.product = product;
+		$scope.relativeProducts = $scope.products.slice(0, 4);
 	});
 });
 
@@ -73,7 +75,7 @@ app.controller('contactCtrl', function ($scope, $routeParams, $rootScope) {
 	$rootScope.page = 'contact';
 });
 
-app.controller('categoryCtrl', function ($scope, $routeParams, $rootScope) {
+app.controller('categoryCtrl', function ($scope, $routeParams, $rootScope, $location,$http) {
 	$rootScope.page = 'category';
 
 	$http.get('./data/products.json').then(function(response){
@@ -81,11 +83,10 @@ app.controller('categoryCtrl', function ($scope, $routeParams, $rootScope) {
 		var products = new Array();
 		$scope.products.forEach(function(val, index) {
 			if (val.category_id == $routeParams.id) {
-				console.log(val);
+				products.push(val);
 			}
 		});
-		// $scope.products = products;
-		console.log($.type(products));
+		$scope.products = products.slice(0, 9);
 	});
 });
 
@@ -95,4 +96,33 @@ app.controller('cartCtrl', function ($scope, $routeParams, $rootScope) {
 
 app.controller('checkoutCtrl', function ($scope, $routeParams, $rootScope) {
 	$rootScope.page = 'checkout';
+});
+
+app.controller('loginCtrl', function ($scope, $routeParams, $rootScope, $http) {
+
+	$http.get('./data/users.json').then(function(res) {
+		$scope.users = res.data;
+		$scope.login = function (){
+			var email = $scope.email_login;
+			var pass = $scope.psssword;
+
+			var check = false;
+			for(var i = 0; i < $scope.users.length ; i ++){
+				if(email == $scope.users[i].email && pass == $scope.users[i].password){
+					check = true;
+					$rootScope.user_login = $scope.users[i];
+					break;
+				} 
+			}
+
+			if (check) {
+				alert('Login Successful');
+			} else {
+				alert('Email or Password invalid');
+			}
+
+		};
+
+		
+	});
 });

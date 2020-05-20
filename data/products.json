@@ -293,5 +293,300 @@
 				"assets/images/quatban4.jpg"
 		],
 		"bought": 88
+	},
+	{
+		"id": 13,
+		"name": "BQ117 CEILING FAN",
+		"price": 1000,
+		"sale": 40,
+		"category_id": 1,
+		"descript": "BQ117 Ceiling Light Fan with beautiful design based on luxurious tones combined with 6 stylish gourds. The middle is a 3-color 36w x 2 LED light handy. The product comes with a convenient remote control.",
+		"technicalData": 
+			{
+				"Model": "NORDIC BQ117",
+				"Style": "Modern and luxurious",
+				"Supply": "220V frequency 50Hz / 60Hz",
+				"Wattage": "35W - DC motor",
+				"Wing diameter": "1100mm",
+				"Fan height": "Subject to change",
+				"Fan motor": "ø153 x 20mm"
+			},
+		"image": "assets/images/quat-tran-cong-nghiep-powerfoil-8-plus.jpg",
+		"gallery_image": [
+				"assets/images/quat-tran-co-dien-camelia-56.jpg",
+				"assets/images/quat-tran-canh-go-akmani-wood-black.jpg",
+				"assets/images/quat-tran-3-canh-go-pearl-60.jpg",
+				"assets/images/quat-tran-co-dien-camelia-56.jpg",
+				"assets/images/quat-tran-cao-cap-haiku-nhap-khau-my-l-series-52-den-led-mau-trang.jpg"
+		],
+		"bought": 100
+	},
+	{
+		"id": 10,
+		"name": "BQ118 CEILING FAN",
+		"price": 2500,
+		"sale": 20,
+		"category_id": 2,
+		"descript": "BQ118 Ceiling Light Fan with beautiful design based on luxurious tones combined with 6 stylish gourds. The middle is a 3-color 36w x 2 LED light handy. The product comes with a convenient remote control.",
+		"technicalData": 
+			{
+				"Model": "NORDIC BQ117",
+				"Style": "Modern and luxurious",
+				"Supply": "220V frequency 50Hz / 60Hz",
+				"Wattage": "35W - DC motor",
+				"Wing diameter": "1100mm",
+				"Fan height": "Subject to change",
+				"Fan motor": "ø153 x 20mm"
+			},
+		"image": "assets/images/quat-tran-canh-lon-nevis-mau-koa-alumium-93yft7046.jpg",
+		"gallery_image": [
+				"assets/images/quat-tran-cao-cap-haiku-nhap-khau-my-l-series-52-den-led-mau-den.jpg",
+				"assets/images/quat-tran-cao-cap-haiku-nhap-khau-my-l-series-52-den-led-mau-trang.jpg",
+				"assets/images/quat-tran-cong-nghiep-chuyen-cho-nha-may-powerfoilx20-washdown.jpg",
+				"assets/images/quat-tran-den-tri-siroco-52.jpg",
+				"assets/images/quat-tran-thap-aroma-x52070.jpg"
+		],
+		"bought": 10
+	},
+	{
+		"id": 14,
+		"name": "BQ119 CEILING FAN",
+		"price": 2550,
+		"sale": 10,
+		"category_id": 1,
+		"descript": "BQ119 Ceiling Light Fan with beautiful design based on luxurious tones combined with 6 stylish gourds. The middle is a 3-color 36w x 2 LED light handy. The product comes with a convenient remote control.",
+		"technicalData": 
+			{
+				"Model": "NORDIC BQ117",
+				"Style": "Modern and luxurious",
+				"Supply": "220V frequency 50Hz / 60Hz",
+				"Wattage": "35W - DC motor",
+				"Wing diameter": "1100mm",
+				"Fan height": "Subject to change",
+				"Fan motor": "ø153 x 20mm"
+			},
+		"image": "assets/images/quat-tran-3-canh-go-hgp-52-dc3092-led.jpg",
+		"gallery_image": [
+				"assets/images/quat-tran-3-canh-cavania-dc-52812.jpg",
+				"assets/images/quat-tran-3-canh-go-pearl-60-brush-nickel.jpg",
+				"assets/images/quat-tran-3-canh-wilminton-led-black.jpg",
+				"assets/images/quat-tran-3-canh-wilminton-led-black.jpg",
+				"assets/images/quat-tran-3-canh-go-hgp-52-dc3092-led.jpg"
+		],
+		"bought": 90
+	},
+	{
+		"id": 15,
+		"name": "BQ120 CEILING FAN",
+		"price": 5000,
+		"sale": 10,
+		"category_id": 3,
+		"descript": "BQ117 Ceiling Light Fan with beautiful design based on luxurious tones combined with 6 stylish gourds. The middle is a 3-color 36w x 2 LED light handy. The product comes with a convenient remote control.",
+		"technicalData": 
+			{
+				"Model": "NORDIC BQ117",
+				"Style": "Modern and luxurious",
+				"Supply": "220V frequency 50Hz / 60Hz",
+				"Wattage": "35W - DC motor",
+				"Wing diameter": "1100mm",
+				"Fan height": "Subject to change",
+				"Fan motor": "ø153 x 20mm"
+			},
+		"image": "assets/images/quat-tran-3-canh-go-pearl-60-brush-nickel.jpg",
+		"gallery_image": [
+				"assets/images/quat-tran-co-dien-camelia-56.jpg",
+				"assets/images/quat-tran-cong-nghiep-chuyen-cho-nha-may-powerfoilx20-washdown.jpg",
+				"assets/images/quat-tran-cao-cap-haiku-nhap-khau-my-l-series-52-den-led-mau-den.jpg",
+				"assets/images/quat-tran-truong-hoc-trung-tam-thuong-mai-essence-big-ass-fan-usa.jpg",
+				"assets/images/quat-tran-dominica-silver-led.jpg"
+		],
+		"bought": 88
+	},
+	{
+		"id": 16,
+		"name": "BQ121 CEILING FAN",
+		"price": 2000,
+		"sale": 10,
+		"category_id": 3,
+		"descript": "BQ117 Ceiling Light Fan with beautiful design based on luxurious tones combined with 6 stylish gourds. The middle is a 3-color 36w x 2 LED light handy. The product comes with a convenient remote control.",
+		"technicalData": 
+			{
+				"Model": "NORDIC BQ117",
+				"Style": "Modern and luxurious",
+				"Supply": "220V frequency 50Hz / 60Hz",
+				"Wattage": "35W - DC motor",
+				"Wing diameter": "1100mm",
+				"Fan height": "Subject to change",
+				"Fan motor": "ø153 x 20mm"
+			},
+		"image": "assets/images/quat-tran-onix60-dc-silver.jpg",
+		"gallery_image": [
+				"assets/images/quat-tran-cong-nghiep-powerfoil-8.jpg",
+				"assets/images/quat-tran-co-dien-camelia-56.jpg",
+				"assets/images/quat-tran-cong-nghiep-nha-xuong-powerfoil-x30.jpg",
+				"assets/images/quat-tran-dominica-silver-led.jpg",
+				"assets/images/quat-tran-canh-lon-isis-big-ass-fan-usa.jpg"
+		],
+		"bought": 88
+	},
+	{
+		"id": 17,
+		"name": "BQ122 CEILING FAN",
+		"price": 2000,
+		"sale": 10,
+		"category_id": 1,
+		"descript": "BQ117 Ceiling Light Fan with beautiful design based on luxurious tones combined with 6 stylish gourds. The middle is a 3-color 36w x 2 LED light handy. The product comes with a convenient remote control.",
+		"technicalData": 
+			{
+				"Model": "NORDIC BQ117",
+				"Style": "Modern and luxurious",
+				"Supply": "220V frequency 50Hz / 60Hz",
+				"Wattage": "35W - DC motor",
+				"Wing diameter": "1100mm",
+				"Fan height": "Subject to change",
+				"Fan motor": "ø153 x 20mm"
+			},
+		"image": "assets/images/quat-tran-3-canh-go-pearl-60.jpg",
+		"gallery_image": [
+				"assets/images/quat-tran-3-canh-go-hgp-52-dc3092-led.jpg",
+				"assets/images/quat-tran-3-canh-cavania-dc-52812.jpg",
+				"assets/images/quat-tran-3-canh-wilminton-led-black.jpg",
+				"assets/images/quat-tran-3-canh-cavania-dc-52812.jpg",
+				"assets/images/quat-tran-canh-go-akmani-wood-black.jpg"
+		],
+		"bought": 9
+	},
+	{
+		"id": 18,
+		"name": "BQ123 CEILING FAN",
+		"price": 1000,
+		"sale": 10,
+		"category_id": 2,
+		"descript": "BQ117 Ceiling Light Fan with beautiful design based on luxurious tones combined with 6 stylish gourds. The middle is a 3-color 36w x 2 LED light handy. The product comes with a convenient remote control.",
+		"technicalData": 
+			{
+				"Model": "NORDIC BQ117",
+				"Style": "Modern and luxurious",
+				"Supply": "220V frequency 50Hz / 60Hz",
+				"Wattage": "35W - DC motor",
+				"Wing diameter": "1100mm",
+				"Fan height": "Subject to change",
+				"Fan motor": "ø153 x 20mm"
+			},
+		"image": "assets/images/quat-tran-canh-go-akmani-wood-black.jpg",
+		"gallery_image": [
+				"assets/images/quat-tran-cao-cap-haiku-nhap-khau-my-l-series-52-den-led-mau-trang.jpg",
+				"assets/images/quat-tran-canh-lon-isis-big-ass-fan-usa.jpg",
+				"assets/images/quat-tran-cao-cap-haiku-nhap-khau-my-l-series-52-den-led-mau-trang.jpg",
+				"assets/images/quat-tran-cao-cap-haiku-nhap-khau-my-l-series-52-den-led-mau-trang.jpg",
+				"assets/images/quat-tran-cao-cap-haiku-nhap-khau-my-l-series-52-den-led-mau-den.jpg"
+		],
+		"bought": 22
+	},
+	{
+		"id": 19,
+		"name": "BQ125 CEILING FAN",
+		"price": 2000,
+		"sale": 15,
+		"category_id": 3,
+		"descript": "BQ117 Ceiling Light Fan with beautiful design based on luxurious tones combined with 6 stylish gourds. The middle is a 3-color 36w x 2 LED light handy. The product comes with a convenient remote control.",
+		"technicalData": 
+			{
+				"Model": "NORDIC BQ117",
+				"Style": "Modern and luxurious",
+				"Supply": "220V frequency 50Hz / 60Hz",
+				"Wattage": "35W - DC motor",
+				"Wing diameter": "1100mm",
+				"Fan height": "Subject to change",
+				"Fan motor": "ø153 x 20mm"
+			},
+		"image": "assets/images/quat-tran-abacus-5-canh-go-60yft-808.jpg",
+		"gallery_image": [
+				"assets/images/quat-tran-cong-nghiep-nha-xuong-powerfoil-x30.jpg",
+				"assets/images/quat-tran-cong-nghiep-powerfoil-8.jpg",
+				"assets/images/quat-tran-cong-nghiep-powerfoil-8-plus.jpg",
+				"assets/images/quat-tran-dominica-silver-led.jpg",
+				"assets/images/quat-tran-cao-cap-haiku-nhap-khau-my-l-series-52-den-led-mau-trang.jpg"
+		],
+		"bought": 60
+	},
+	{
+		"id": 20,
+		"name": "BQ126 CEILING FAN",
+		"price": 2000,
+		"sale": 10,
+		"category_id": 2,
+		"descript": "BQ117 Ceiling Light Fan with beautiful design based on luxurious tones combined with 6 stylish gourds. The middle is a 3-color 36w x 2 LED light handy. The product comes with a convenient remote control.",
+		"technicalData": 
+			{
+				"Model": "NORDIC BQ117",
+				"Style": "Modern and luxurious",
+				"Supply": "220V frequency 50Hz / 60Hz",
+				"Wattage": "35W - DC motor",
+				"Wing diameter": "1100mm",
+				"Fan height": "Subject to change",
+				"Fan motor": "ø153 x 20mm"
+			},
+		"image": "assets/images/quat-tran-dominica-silver-led.jpg",
+		"gallery_image": [
+				"assets/images/quat-tran-thap-aroma-x52070.jpg",
+				"assets/images/quat-tran-abacus-5-canh-go-60yft-808.jpg",
+				"assets/images/quat-tran-cao-cap-haiku-nhap-khau-my-l-series-52-den-led-mau-den.jpg",
+				"assets/images/quat-tran-den-tri-siroco-52.jpg",
+				"assets/images/quat-tran-co-dien-camelia-56.jpg"
+		],
+		"bought": 200
+	},
+	{
+		"id": 21,
+		"name": "BQ117 CEILING FAN",
+		"price": 1000,
+		"sale": 10,
+		"category_id": 3,
+		"descript": "BQ117 Ceiling Light Fan with beautiful design based on luxurious tones combined with 6 stylish gourds. The middle is a 3-color 36w x 2 LED light handy. The product comes with a convenient remote control.",
+		"technicalData": 
+			{
+				"Model": "NORDIC BQ117",
+				"Style": "Modern and luxurious",
+				"Supply": "220V frequency 50Hz / 60Hz",
+				"Wattage": "35W - DC motor",
+				"Wing diameter": "1100mm",
+				"Fan height": "Subject to change",
+				"Fan motor": "ø153 x 20mm"
+			},
+		"image": "assets/images/quat-tran-dominica-silver-led.jpg",
+		"gallery_image": [
+				"assets/images/quat-tran-co-dien-camelia-56.jpg",
+				"assets/images/quat-tran-3-canh-go-pearl-60-brush-nickel.jpg",
+				"assets/images/quat-tran-3-canh-go-pearl-60.jpg",
+				"assets/images/quat-tran-canh-lon-isis-big-ass-fan-usa.jpg",
+				"assets/images/quat-tran-cao-cap-haiku-nhap-khau-my-l-series-52-den-led-mau-den.jpg"
+		],
+		"bought": 55
+	},
+	{
+		"id": 22,
+		"name": "BQ130 CEILING FAN",
+		"price": 2000,
+		"sale": 30,
+		"category_id": 3,
+		"descript": "BQ117 Ceiling Light Fan with beautiful design based on luxurious tones combined with 6 stylish gourds. The middle is a 3-color 36w x 2 LED light handy. The product comes with a convenient remote control.",
+		"technicalData": 
+			{
+				"Model": "NORDIC BQ117",
+				"Style": "Modern and luxurious",
+				"Supply": "220V frequency 50Hz / 60Hz",
+				"Wattage": "35W - DC motor",
+				"Wing diameter": "1100mm",
+				"Fan height": "Subject to change",
+				"Fan motor": "ø153 x 20mm"
+			},
+		"image": "assets/images/quatban1.jpg",
+		"gallery_image": [
+				"assets/images/quatban2.jpg",
+				"assets/images/quatban3.jpg",
+				"assets/images/quatban4.jpg"
+		],
+		"bought": 88
 	}
 ]

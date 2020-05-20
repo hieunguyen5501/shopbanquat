@@ -26,7 +26,7 @@
             <div class="item-product">
                <div class="title default"><span>HOT PRODUCT</span></div>
                <div class="row">
-                  <div class="col-xs-12 col-sm-6 col-md-3"  ng-repeat="(index, product) in hotProduct">
+                  <div class="col-xs-12 col-sm-6 col-md-3"  ng-repeat="(index, product) in hotProduct track by $index">
 
                      <div class="list-item-product">
 
@@ -47,7 +47,7 @@
             <div class="item-product">
                <div class="title default"><span>NEW PRODUCT</span></div>
                <div class="row">
-                  <div class="col-xs-12 col-sm-6 col-md-3"  ng-repeat="(index, product) in newProduct">
+                  <div class="col-xs-12 col-sm-6 col-md-3"  ng-repeat="(index, product) in newProduct track by $index">
 
                      <div class="list-item-product">
 
@@ -68,7 +68,7 @@
             <div class="item-product">
                <div class="title default"><span>BEST SELLERS</span></div>
                <div class="row">
-                  <div class="col-xs-12 col-sm-6 col-md-3"  ng-repeat="(index, product) in saleProduct">
+                  <div class="col-xs-12 col-sm-6 col-md-3"  ng-repeat="(index, product) in saleProduct track by $index">
 
                      <div class="list-item-product">
 
